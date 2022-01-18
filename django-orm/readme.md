@@ -22,6 +22,7 @@
 
 ## Django Model API
 * all(): 테이블 데이터를 전부 가져옴
+* value(*fields): dictionary 형태로 변환하여 데이터를 가져옴
 * get(): 하나의 row만을 가져옴
 * filter(): 특정 조건에 맞는 row들을 가져옴
 * exclude(): 특정 조건을 제외하고 나머지 row들을 가져옴
@@ -30,8 +31,11 @@
 * disinct(): 중복된 값은 하나로 표시하여 필드 중복 방지
 * first(): 데이터들 중 처음에 있는 row만 가져옴
 * last(): 데이터들 중 마지막 row만 가져옴
-* save(): 테이블에 데이터 갱신
-* delete(): 테이블에 데이터 삭
+* create(**kwargs): 새로운 object를 생성하는 동시에 저장. 테이블에 새로운 데이터 추가하고 생성된 instance를 반환 (insert)
+* save(): 테이블에 데이터 갱신 (update)
+* delete(): 테이블에 데이터 삭제
+* model api를 연결해서 사용 가능
+    * ex) Object.objects.filter(category = 1).values()
 
 ## 쿼리셋 (Query Set)이란 ?
 * objects를 사용해서 다수의 데이터를 가져오는 함수를 사용할 때 반환되는 객체
