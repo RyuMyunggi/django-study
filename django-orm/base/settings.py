@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += [
     'base'
+    'orm.app.OrmConfig'
 ]
 
 MIDDLEWARE = [
