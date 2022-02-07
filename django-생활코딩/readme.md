@@ -22,4 +22,9 @@
     * 유지보수의 매우 큰 장점
     * 개인화된 정보를 만들수도 있음
 
+### django web framework - 10/14 http GET, POST
+* csrf: django 내장 된 보안 기능
 
+### django web framework - 11/14 request response object. CRUD (Create)
+* django request.method
+* django shortcut function
