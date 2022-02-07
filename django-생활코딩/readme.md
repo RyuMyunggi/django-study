@@ -1,11 +1,12 @@
 # 생활코딩 Python Django Web Framework
 * https://www.youtube.com/playlist?list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG
 
+## 각 영상별 주요 내용
 ### django web framework - 3/14 포트의 개념
 * listening port 변경: python manage.py runserver 8888
 
 ### django web framework - 4/14 app 만들기
-*
+![스크린샷 2022-02-07 오전 10 03 17](https://user-images.githubusercontent.com/77147527/152729185-23125ac9-4a49-4aeb-9aff-248d6c753055.png)
 
 ### django web framework - 5/14 routing
 * routing: 사용자가 접속한 각각의 경로를 누가 처리하는가 ?
